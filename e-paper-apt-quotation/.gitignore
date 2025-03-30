@@ -15,7 +15,6 @@ sdkconfig.old
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 
 # ESP-IDF Python environment
 .env/
