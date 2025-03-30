@@ -1,0 +1,35 @@
+# ESP-IDF build output
+/build/
+*.bin
+*.elf
+*.map
+
+# Flash images
+*.hex
+
+# Project-specific settings
+sdkconfig
+sdkconfig.old
+
+# CMake and Ninja build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ESP-IDF Python environment
+.env/
+.python_env/
+
+# IDF logs and tools
+*.log
+*.pyc
+__pycache__/
+
+# VSCode settings (optional, falls du VSCode verwendest)
+.vscode/
+
+# Backup/OS files
+*~
+.DS_Store
+Thumbs.db
